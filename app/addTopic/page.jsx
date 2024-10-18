@@ -19,7 +19,7 @@ const Page = () => {
         }
 
         try {
-            const res = await fetch('http://localhost:3000/api/topics', {
+            const res = await fetch('https://moncurd.vercel.app/api/topics', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
